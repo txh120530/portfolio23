@@ -27,7 +27,7 @@ export default function Home() {
         <meta name="description" content="Travis Harvey - Web Developer" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
-        <script src="https://kit.fontawesome.com/4ab9d3f562.js"></script>
+        <script src="https://kit.fontawesome.com/4ab9d3f562.js" crossorigin="anonymous"></script>
 
       </Head>
       <Navbar />
