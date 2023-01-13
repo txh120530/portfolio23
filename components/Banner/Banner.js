@@ -54,7 +54,7 @@ const banner = (props) => {
               <h1 id="hero__title" className="uppercase text-small font-bold">Web Developer in DFW</h1>
               <h2 className="text-4xl lg:leading-tight uppercase font-thin my-4">Professional Web Development<br /> With a Personalized Touch</h2>
             
-              <Link goto="about" onClick={onBtnClick} className="btn">Let's Chat!</Link>
+              <button goto="contact" onClick={onBtnClick} className="btn">Let's Chat!</button>
               </div>
             </div>
       </section>
