@@ -4,22 +4,22 @@ import React, {Fragment} from 'react';
 const socialData = {
 	'LinkedIn': {
 		url: 'https://www.linkedin.com/in/travis-harvey-0ab840a6/',
-		icon: 'fab fa-linkedin-in',
+		icon: 'fa-brands fa-linkedin-in',
 		color: '#0077b5'
 	},
 	'Codepen': {
 		url: 'https://codepen.io/txh120530',
-		icon: 'fab fa-codepen',
+		icon: 'fa-brands fa-codepen',
 		color: '#0ebeff'
 	},
 	'Github': {
 		url: 'https://www.github.com/txh120530',
-		icon: 'fas fa-github',
+		icon: 'fa-brands fa-github',
 		color: '#4078c0'
 	},
 	'Email': {
 		url: 'mailto:txh120530@gmail.com',
-		icon: 'fas fa-envelope',
+		icon: 'fa-solid fa-envelope',
 		color: 'rgba(52, 27, 43, 1)'
 	}
 
