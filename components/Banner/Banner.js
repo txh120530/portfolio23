@@ -8,22 +8,24 @@ import heroBackground from '../../public/dfw.jpg'
 import heroOverlay from '../../public/overlay.png'
 
 
-const scroll2El = elID => {
-  window.scrollTo({
-    top: document.getElementById(elID).offsetTop - 60,
-    behavior: 'smooth',
-  });
-};
 
-const onBtnClick = (e) => {
-  e.preventDefault();
-  const goto = e.target.getAttribute('goto');
-  setTimeout(() => {
-    scroll2El(goto);
-  }, 100);
-}
 
 const banner = (props) => {
+  const scroll2El = elID => {
+    window.scrollTo({
+      top: document.getElementById(elID).offsetTop - 60,
+      behavior: 'smooth',
+    });
+  };
+  
+  const onBtnClick = (e) => {
+    e.preventDefault();
+    const goto = e.target.getAttribute('goto');
+    setTimeout(() => {
+      scroll2El(goto);
+    }, 100);
+  }
+
 	return(
 	<Fragment>
     <div className="overflow-hidden">
