@@ -7,6 +7,22 @@ import BannerBG from './BannerBG/BannerBG'
 import heroBackground from '../../public/dfw.jpg'
 import heroOverlay from '../../public/overlay.png'
 
+
+const scroll2El = elID => {
+  window.scrollTo({
+    top: document.getElementById(elID).offsetTop - 60,
+    behavior: 'smooth',
+  });
+};
+
+const onBtnClick = (e) => {
+  e.preventDefault();
+  const goto = e.target.getAttribute('goto');
+  setTimeout(() => {
+    scroll2El(goto);
+  }, 100);
+}
+
 const banner = (props) => {
 	return(
 	<Fragment>
@@ -36,7 +52,7 @@ const banner = (props) => {
               <h1 id="hero__title" className="uppercase text-small font-bold">Web Developer in DFW</h1>
               <h2 className="text-4xl lg:leading-tight uppercase font-thin my-4">Professional Web Development<br /> With a Personalized Touch</h2>
             
-              <Link href="./contact" className="btn">Let's Chat!</Link>
+              <Link goto="about" onClick={onBtnClick} className="btn">Let's Chat!</Link>
               </div>
             </div>
       </section>
