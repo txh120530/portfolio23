@@ -23,6 +23,7 @@ export default function Home() {
   return (
     <>
       <Head>
+        Access-Control-Allow-Origin: *
         <title>Travis Harvey Web Development</title>
         <meta name="description" content="Travis Harvey - Web Developer" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
