@@ -28,7 +28,7 @@ const socialData = {
 
 const socialVis = () =>{
 	const social = Object.entries(socialData).map(([key, value], index) => ( 
-		<a href={`${value.url}`} target="_blank" rel="noreferrer noopener" className="socialicon" style={{color: value.color}}><i className={`fa ${value.icon}`}></i></a>
+		<a href={`${value.url}`} target="_blank" rel="noreferrer noopener" className="socialicon" style={`{color: value.color} height: 20px;`}><i className={`fa ${value.icon}`}></i></a>
 	))
 	return social;
 } 
