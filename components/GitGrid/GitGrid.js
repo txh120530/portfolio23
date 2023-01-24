@@ -8,42 +8,43 @@ import thumb3 from '../../public/thumbnails/git-thumb-3.png';
 import thumb4 from '../../public/thumbnails/git-thumb-4.png';
 import thumb5 from '../../public/thumbnails/git-thumb-5.png';
 import thumb6 from '../../public/thumbnails/git-thumb-6.png';
+import thumb7 from '../../public/thumbnails/git-thumb-7.png';
 
 
 const websiteData = {
+	'Final Fantasy XIV Hotbar Designer': {
+		'url': 'https://main.d3rmsvwzyg18uw.amplifyapp.com/',
+		'repo': 'https://github.com/txh120530/ffxivhotbars',
+		'iframe': thumb7.src,
+		'desc': 'A hotbar designer for the game Final Fantasy XIV. Made with React, NextJS, & Typescript.'
+	},
 	'Animal Crossing Museum': {
 		'url': 'https://txh120530.github.io/ac-catalog/',
 		'repo': 'https://github.com/txh120530/ac-catalog',
 		'iframe': thumb1.src,
-		'desc': 'A collection app for the game Animal Crossing New Horizons that allows users to search for and catalog the collectable bugs, fish, and etc in the game.'
+		'desc': 'A React-based collection app for the game Animal Crossing New Horizons that allows users to search for and catalog the collectable bugs, fish, and etc in the game. Made with React.'
 	},
 	'Keyboard Hot & Cold':{
 		'url': 'https://codepen.io/txh120530/full/RwgeLYN',
 		'iframe': thumb2.src,
-		'desc': 'A Hot and Cold game using the alphabetical keys on your keyboard.'
+		'desc': 'A Hot and Cold game using the alphabetical keys on your keyboard. Made with Javascript.'
 	},
 
 	'React Dev Tools': {
 		'url': 'https://txh120530.github.io/react-devtools/',
 		'repo': 'https://github.com/txh120530/react-devtools',
 		'iframe': thumb3.src,
-		'desc': 'A small collection of dev tools made in React created to alleviate having to search across multiple Google searches for basic dev tools.'
-	},
-	'Christmas Lights Generator': {
-		'url': 'https://txh120530.github.io/christmas-lights/',
-		'repo': 'https://github.com/txh120530/christmas-lights',
-		'iframe': thumb4.src,
-		'desc': 'React-based Christmas Lights Generator '
+		'desc': 'A small collection of dev tools made in React created to alleviate having to search across multiple Google searches for basic dev tools. Made with React.'
 	},
 	'Dev Gallery': {
 		'repo': 'https://github.com/txh120530/dev-gallery',
 		'iframe': thumb5.src,
-		'desc': 'A Test Gallery using the MERN Stack and Redux for devs to share basic designs templates.'
+		'desc': 'A Test Gallery using the MERN Stack and Redux for devs to share basic designs templates. Made with React, Redux, NodeJS, & MongoDB.'
 	},
 	'Garbage Bot': {
 		'repo': 'https://github.com/txh120530/Garbage-Bot',
 		'iframe': thumb6.src,
-		'desc': 'A bot created for my personal Discord channel as a way of brushing up on NodeJS coding and API calls. Includes a variety of functions such as a Steam price searcher and a basic collection game using MongoDB databases.'
+		'desc': 'A bot created for my personal Discord channel as a way of brushing up on NodeJS coding and API calls. Includes a variety of functions such as a Steam price searcher and a basic collection game using MongoDB databases. Made with Node, Express, & MongoDB.'
 	}
 }
 
